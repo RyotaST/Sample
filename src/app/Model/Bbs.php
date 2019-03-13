@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Bbs extends Model
 {
-   protected $fillable = ['name','comment']; // 追記したところ
+   protected $fillable = ['omame','comment']; // 追記したところ
 }

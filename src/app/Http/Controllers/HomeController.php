@@ -17,7 +17,7 @@ class HomeController extends Controller
         return view('home');
     }
 
-    /**
+     /**
      * ファイルアップロード処理
      */
     public function upload(Request $request)
@@ -45,6 +45,4 @@ class HomeController extends Controller
                 ->withErrors();
         }
     }
-    
 }
-
